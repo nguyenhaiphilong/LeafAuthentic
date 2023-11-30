@@ -1,0 +1,102 @@
+/* NAVI */
+.NAVI ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.NAVI li{
+    width: 150px;
+    text-align: center; 
+    
+}
+.NV li {
+    background-color:white;
+    height: 25px;
+    width: 110px;
+  
+}
+.NV {
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.NV li:hover {
+    background-color: #dcfcfc;
+    border-bottom: 2px solid black;
+}
+.NAVI > ul > li{
+    display: inline-block;
+
+    position: relative;
+}
+.NAVI > ul > li > ul {
+    display: none;
+    position: absolute;
+    top: 22px;
+    left: 23%;
+}
+
+.NAVI ul li:last-child{
+    border: none;
+}
+.NAVI ul li:hover ul{
+    display: block;
+}
+/* G2 */
+.G2 ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.G2 li{
+    width: auto;
+    text-align: center; 
+    
+}
+.G li {
+    background-color:white;
+    height: 25px;
+    width: 110px;
+}
+.G {
+    border: 2px solid black;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.G li:hover {
+    background-color: #dcfcfc;
+    border-bottom: 2px solid black;
+}
+.G2 b:hover {
+    background-color: #dcfcfc;
+    
+}
+.G2 > ul > li{
+    display: inline-block;
+
+    position: relative;
+}
+.G2 > ul > li > ul {
+    display: none;
+    position: absolute;
+    top: 22px;
+    right: 2%;
+}
+
+.G2 ul li:last-child{
+    border: none;
+}
+.G2 ul li:hover ul{
+    display: block;
+}
+.G2 b {
+    border-top: 5px double black;
+    border-left: 5px double black;
+    border-right: 5px double black;
+}
+/* new */
+div.Cloud9 {
+    /* background-color: #9ACD32; */
+    box-shadow: 1px 2px 11px 1px #464646;
+}

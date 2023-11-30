@@ -1,0 +1,9 @@
+.ME td {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 30px;
+}
+.IS td {
+    padding-left: 50px;
+    padding-right: 50px;
+}

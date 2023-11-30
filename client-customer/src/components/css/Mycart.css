@@ -1,0 +1,15 @@
+.datatable td {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+.datatable th {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.datatable span.link {
+        text-decoration: none
+}
+.datatable span.link:hover {
+    color: red;
+}
